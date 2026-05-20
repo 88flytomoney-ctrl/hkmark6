@@ -1,0 +1,1560 @@
+{
+  "generatedAt": "2026-05-20T09:25:14.745944",
+  "draws": [
+    {
+      "drawNumber": "26/053",
+      "drawDate": "2026-05-19",
+      "numbers": [
+        1,
+        2,
+        4,
+        20,
+        21,
+        27
+      ],
+      "bonus": 19,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/052",
+      "drawDate": "2026-05-16",
+      "numbers": [
+        11,
+        25,
+        28,
+        36,
+        41,
+        43
+      ],
+      "bonus": 22,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/051",
+      "drawDate": "2026-05-14",
+      "numbers": [
+        23,
+        27,
+        30,
+        34,
+        45,
+        47
+      ],
+      "bonus": 28,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/050",
+      "drawDate": "2026-05-12",
+      "numbers": [
+        4,
+        16,
+        19,
+        22,
+        25,
+        47
+      ],
+      "bonus": 40,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/049",
+      "drawDate": "2026-05-10",
+      "numbers": [
+        9,
+        17,
+        26,
+        41,
+        42,
+        47
+      ],
+      "bonus": 8,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/048",
+      "drawDate": "2026-05-07",
+      "numbers": [
+        6,
+        14,
+        20,
+        23,
+        28,
+        34
+      ],
+      "bonus": 49,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/047",
+      "drawDate": "2026-05-05",
+      "numbers": [
+        2,
+        7,
+        8,
+        10,
+        18,
+        47
+      ],
+      "bonus": 4,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/046",
+      "drawDate": "2026-05-02",
+      "numbers": [
+        2,
+        3,
+        8,
+        28,
+        30,
+        48
+      ],
+      "bonus": 9,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/045",
+      "drawDate": "2026-04-25",
+      "numbers": [
+        4,
+        16,
+        21,
+        36,
+        42,
+        46
+      ],
+      "bonus": 9,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/044",
+      "drawDate": "2026-04-23",
+      "numbers": [
+        12,
+        23,
+        37,
+        38,
+        45,
+        48
+      ],
+      "bonus": 8,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/043",
+      "drawDate": "2026-04-21",
+      "numbers": [
+        2,
+        4,
+        10,
+        11,
+        26,
+        44
+      ],
+      "bonus": 40,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/042",
+      "drawDate": "2026-04-18",
+      "numbers": [
+        17,
+        20,
+        27,
+        32,
+        39,
+        46
+      ],
+      "bonus": 34,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/041",
+      "drawDate": "2026-04-16",
+      "numbers": [
+        6,
+        12,
+        14,
+        28,
+        44,
+        46
+      ],
+      "bonus": 15,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/040",
+      "drawDate": "2026-04-14",
+      "numbers": [
+        8,
+        19,
+        22,
+        33,
+        44,
+        46
+      ],
+      "bonus": 18,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/039",
+      "drawDate": "2026-04-11",
+      "numbers": [
+        11,
+        14,
+        17,
+        28,
+        40,
+        42
+      ],
+      "bonus": 2,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/038",
+      "drawDate": "2026-04-09",
+      "numbers": [
+        13,
+        16,
+        24,
+        43,
+        44,
+        45
+      ],
+      "bonus": 40,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/037",
+      "drawDate": "2026-04-07",
+      "numbers": [
+        8,
+        23,
+        25,
+        29,
+        33,
+        34
+      ],
+      "bonus": 49,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/036",
+      "drawDate": "2026-04-04",
+      "numbers": [
+        20,
+        28,
+        32,
+        35,
+        40,
+        45
+      ],
+      "bonus": 43,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/035",
+      "drawDate": "2026-03-31",
+      "numbers": [
+        9,
+        18,
+        19,
+        20,
+        28,
+        32
+      ],
+      "bonus": 44,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/034",
+      "drawDate": "2026-03-28",
+      "numbers": [
+        11,
+        21,
+        26,
+        27,
+        42,
+        45
+      ],
+      "bonus": 19,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/033",
+      "drawDate": "2026-03-26",
+      "numbers": [
+        12,
+        17,
+        23,
+        27,
+        28,
+        37
+      ],
+      "bonus": 3,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/032",
+      "drawDate": "2026-03-24",
+      "numbers": [
+        6,
+        9,
+        22,
+        26,
+        44,
+        49
+      ],
+      "bonus": 7,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/031",
+      "drawDate": "2026-03-21",
+      "numbers": [
+        5,
+        9,
+        11,
+        18,
+        23,
+        47
+      ],
+      "bonus": 24,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/030",
+      "drawDate": "2026-03-19",
+      "numbers": [
+        2,
+        6,
+        8,
+        33,
+        41,
+        45
+      ],
+      "bonus": 48,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/029",
+      "drawDate": "2026-03-17",
+      "numbers": [
+        16,
+        18,
+        22,
+        28,
+        45,
+        49
+      ],
+      "bonus": 13,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/028",
+      "drawDate": "2026-03-12",
+      "numbers": [
+        7,
+        13,
+        14,
+        16,
+        26,
+        30
+      ],
+      "bonus": 34,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/027",
+      "drawDate": "2026-03-10",
+      "numbers": [
+        2,
+        16,
+        25,
+        34,
+        35,
+        37
+      ],
+      "bonus": 49,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/026",
+      "drawDate": "2026-03-07",
+      "numbers": [
+        12,
+        15,
+        18,
+        22,
+        28,
+        37
+      ],
+      "bonus": 31,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/025",
+      "drawDate": "2026-03-05",
+      "numbers": [
+        4,
+        18,
+        24,
+        31,
+        42,
+        46
+      ],
+      "bonus": 11,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/024",
+      "drawDate": "2026-03-03",
+      "numbers": [
+        6,
+        13,
+        20,
+        31,
+        32,
+        44
+      ],
+      "bonus": 45,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/023",
+      "drawDate": "2026-02-28",
+      "numbers": [
+        5,
+        15,
+        37,
+        39,
+        46,
+        47
+      ],
+      "bonus": 29,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/022",
+      "drawDate": "2026-02-26",
+      "numbers": [
+        6,
+        13,
+        15,
+        19,
+        38,
+        42
+      ],
+      "bonus": 34,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/021",
+      "drawDate": "2026-02-24",
+      "numbers": [
+        2,
+        3,
+        4,
+        10,
+        13,
+        23
+      ],
+      "bonus": 12,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/020",
+      "drawDate": "2026-02-21",
+      "numbers": [
+        2,
+        18,
+        34,
+        35,
+        37,
+        49
+      ],
+      "bonus": 33,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/019",
+      "drawDate": "2026-02-15",
+      "numbers": [
+        8,
+        28,
+        33,
+        36,
+        37,
+        46
+      ],
+      "bonus": 4,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/018",
+      "drawDate": "2026-02-12",
+      "numbers": [
+        2,
+        3,
+        14,
+        25,
+        37,
+        46
+      ],
+      "bonus": 10,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/017",
+      "drawDate": "2026-02-10",
+      "numbers": [
+        3,
+        4,
+        14,
+        18,
+        26,
+        39
+      ],
+      "bonus": 40,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/016",
+      "drawDate": "2026-02-07",
+      "numbers": [
+        12,
+        22,
+        28,
+        32,
+        37,
+        44
+      ],
+      "bonus": 20,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/015",
+      "drawDate": "2026-02-05",
+      "numbers": [
+        1,
+        9,
+        17,
+        24,
+        35,
+        36
+      ],
+      "bonus": 42,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/014",
+      "drawDate": "2026-02-03",
+      "numbers": [
+        12,
+        23,
+        27,
+        37,
+        39,
+        42
+      ],
+      "bonus": 5,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/013",
+      "drawDate": "2026-01-31",
+      "numbers": [
+        25,
+        30,
+        32,
+        35,
+        36,
+        47
+      ],
+      "bonus": 46,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/012",
+      "drawDate": "2026-01-29",
+      "numbers": [
+        6,
+        9,
+        12,
+        14,
+        35,
+        44
+      ],
+      "bonus": 11,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/011",
+      "drawDate": "2026-01-27",
+      "numbers": [
+        7,
+        12,
+        14,
+        25,
+        38,
+        47
+      ],
+      "bonus": 15,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/010",
+      "drawDate": "2026-01-24",
+      "numbers": [
+        6,
+        16,
+        17,
+        22,
+        28,
+        48
+      ],
+      "bonus": 45,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/009",
+      "drawDate": "2026-01-22",
+      "numbers": [
+        4,
+        9,
+        15,
+        24,
+        27,
+        31
+      ],
+      "bonus": 45,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/008",
+      "drawDate": "2026-01-20",
+      "numbers": [
+        1,
+        4,
+        6,
+        9,
+        44,
+        46
+      ],
+      "bonus": 27,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/007",
+      "drawDate": "2026-01-17",
+      "numbers": [
+        5,
+        12,
+        15,
+        23,
+        27,
+        42
+      ],
+      "bonus": 46,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/006",
+      "drawDate": "2026-01-15",
+      "numbers": [
+        3,
+        6,
+        37,
+        38,
+        39,
+        44
+      ],
+      "bonus": 48,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/005",
+      "drawDate": "2026-01-13",
+      "numbers": [
+        14,
+        24,
+        34,
+        38,
+        48,
+        49
+      ],
+      "bonus": 27,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/004",
+      "drawDate": "2026-01-10",
+      "numbers": [
+        3,
+        16,
+        20,
+        22,
+        24,
+        37
+      ],
+      "bonus": 42,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/003",
+      "drawDate": "2026-01-08",
+      "numbers": [
+        15,
+        21,
+        24,
+        40,
+        45,
+        46
+      ],
+      "bonus": 13,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/002",
+      "drawDate": "2026-01-06",
+      "numbers": [
+        2,
+        8,
+        12,
+        19,
+        28,
+        36
+      ],
+      "bonus": 1,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "26/001",
+      "drawDate": "2026-01-03",
+      "numbers": [
+        2,
+        10,
+        13,
+        16,
+        20,
+        21
+      ],
+      "bonus": 14,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/134",
+      "drawDate": "2025-12-28",
+      "numbers": [
+        7,
+        10,
+        11,
+        19,
+        25,
+        30
+      ],
+      "bonus": 45,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/133",
+      "drawDate": "2025-12-25",
+      "numbers": [
+        1,
+        2,
+        4,
+        30,
+        41,
+        43
+      ],
+      "bonus": 13,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/132",
+      "drawDate": "2025-12-21",
+      "numbers": [
+        9,
+        17,
+        27,
+        34,
+        39,
+        47
+      ],
+      "bonus": 46,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/131",
+      "drawDate": "2025-12-18",
+      "numbers": [
+        6,
+        23,
+        28,
+        31,
+        33,
+        34
+      ],
+      "bonus": 11,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/130",
+      "drawDate": "2025-12-16",
+      "numbers": [
+        3,
+        12,
+        23,
+        28,
+        35,
+        38
+      ],
+      "bonus": 24,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/129",
+      "drawDate": "2025-12-13",
+      "numbers": [
+        10,
+        17,
+        19,
+        28,
+        45,
+        49
+      ],
+      "bonus": 1,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/128",
+      "drawDate": "2025-12-11",
+      "numbers": [
+        1,
+        5,
+        6,
+        25,
+        30,
+        42
+      ],
+      "bonus": 43,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/127",
+      "drawDate": "2025-12-06",
+      "numbers": [
+        4,
+        6,
+        26,
+        28,
+        34,
+        40
+      ],
+      "bonus": 25,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/126",
+      "drawDate": "2025-12-02",
+      "numbers": [
+        6,
+        18,
+        29,
+        34,
+        37,
+        38
+      ],
+      "bonus": 39,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/125",
+      "drawDate": "2025-11-25",
+      "numbers": [
+        1,
+        2,
+        17,
+        35,
+        37,
+        48
+      ],
+      "bonus": 8,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/124",
+      "drawDate": "2025-11-20",
+      "numbers": [
+        19,
+        26,
+        33,
+        35,
+        36,
+        39
+      ],
+      "bonus": 5,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/123",
+      "drawDate": "2025-11-18",
+      "numbers": [
+        2,
+        4,
+        10,
+        26,
+        28,
+        36
+      ],
+      "bonus": 23,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/122",
+      "drawDate": "2025-11-16",
+      "numbers": [
+        2,
+        11,
+        13,
+        28,
+        38,
+        47
+      ],
+      "bonus": 7,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/121",
+      "drawDate": "2025-11-13",
+      "numbers": [
+        10,
+        11,
+        28,
+        30,
+        37,
+        39
+      ],
+      "bonus": 15,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/120",
+      "drawDate": "2025-11-11",
+      "numbers": [
+        18,
+        20,
+        28,
+        37,
+        38,
+        40
+      ],
+      "bonus": 41,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/119",
+      "drawDate": "2025-11-08",
+      "numbers": [
+        7,
+        9,
+        16,
+        17,
+        33,
+        46
+      ],
+      "bonus": 49,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/118",
+      "drawDate": "2025-11-06",
+      "numbers": [
+        10,
+        17,
+        22,
+        33,
+        40,
+        41
+      ],
+      "bonus": 31,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/117",
+      "drawDate": "2025-11-04",
+      "numbers": [
+        19,
+        20,
+        26,
+        28,
+        39,
+        44
+      ],
+      "bonus": 4,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/116",
+      "drawDate": "2025-10-28",
+      "numbers": [
+        4,
+        7,
+        15,
+        21,
+        45,
+        46
+      ],
+      "bonus": 24,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/115",
+      "drawDate": "2025-10-25",
+      "numbers": [
+        6,
+        7,
+        27,
+        36,
+        39,
+        43
+      ],
+      "bonus": 1,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/114",
+      "drawDate": "2025-10-23",
+      "numbers": [
+        4,
+        19,
+        24,
+        25,
+        26,
+        46
+      ],
+      "bonus": 39,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/113",
+      "drawDate": "2025-10-21",
+      "numbers": [
+        1,
+        8,
+        9,
+        11,
+        18,
+        32
+      ],
+      "bonus": 13,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/112",
+      "drawDate": "2025-10-18",
+      "numbers": [
+        5,
+        13,
+        17,
+        18,
+        31,
+        44
+      ],
+      "bonus": 2,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/111",
+      "drawDate": "2025-10-16",
+      "numbers": [
+        2,
+        11,
+        32,
+        40,
+        43,
+        48
+      ],
+      "bonus": 12,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/110",
+      "drawDate": "2025-10-14",
+      "numbers": [
+        3,
+        15,
+        17,
+        24,
+        32,
+        44
+      ],
+      "bonus": 20,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/109",
+      "drawDate": "2025-10-11",
+      "numbers": [
+        5,
+        6,
+        18,
+        19,
+        30,
+        39
+      ],
+      "bonus": 7,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/108",
+      "drawDate": "2025-10-09",
+      "numbers": [
+        1,
+        3,
+        24,
+        31,
+        39,
+        45
+      ],
+      "bonus": 7,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/107",
+      "drawDate": "2025-10-06",
+      "numbers": [
+        15,
+        17,
+        19,
+        23,
+        24,
+        34
+      ],
+      "bonus": 33,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/106",
+      "drawDate": "2025-09-30",
+      "numbers": [
+        13,
+        21,
+        33,
+        41,
+        44,
+        46
+      ],
+      "bonus": 43,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/105",
+      "drawDate": "2025-09-27",
+      "numbers": [
+        8,
+        14,
+        16,
+        18,
+        26,
+        48
+      ],
+      "bonus": 44,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/104",
+      "drawDate": "2025-09-25",
+      "numbers": [
+        2,
+        11,
+        22,
+        27,
+        46,
+        47
+      ],
+      "bonus": 32,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/103",
+      "drawDate": "2025-09-20",
+      "numbers": [
+        8,
+        13,
+        17,
+        24,
+        36,
+        43
+      ],
+      "bonus": 41,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/102",
+      "drawDate": "2025-09-18",
+      "numbers": [
+        22,
+        33,
+        35,
+        36,
+        37,
+        48
+      ],
+      "bonus": 30,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/101",
+      "drawDate": "2025-09-16",
+      "numbers": [
+        14,
+        21,
+        22,
+        28,
+        32,
+        33
+      ],
+      "bonus": 25,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/100",
+      "drawDate": "2025-09-13",
+      "numbers": [
+        15,
+        21,
+        23,
+        37,
+        47,
+        49
+      ],
+      "bonus": 30,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/099",
+      "drawDate": "2025-09-11",
+      "numbers": [
+        11,
+        21,
+        22,
+        25,
+        32,
+        44
+      ],
+      "bonus": 38,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/098",
+      "drawDate": "2025-09-09",
+      "numbers": [
+        7,
+        15,
+        32,
+        40,
+        42,
+        44
+      ],
+      "bonus": 9,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/097",
+      "drawDate": "2025-09-06",
+      "numbers": [
+        6,
+        19,
+        22,
+        23,
+        34,
+        43
+      ],
+      "bonus": 11,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/096",
+      "drawDate": "2025-09-02",
+      "numbers": [
+        5,
+        18,
+        23,
+        24,
+        29,
+        49
+      ],
+      "bonus": 11,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/095",
+      "drawDate": "2025-08-30",
+      "numbers": [
+        6,
+        18,
+        31,
+        33,
+        44,
+        49
+      ],
+      "bonus": 2,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/094",
+      "drawDate": "2025-08-28",
+      "numbers": [
+        5,
+        36,
+        39,
+        44,
+        48,
+        49
+      ],
+      "bonus": 32,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/093",
+      "drawDate": "2025-08-26",
+      "numbers": [
+        2,
+        3,
+        16,
+        25,
+        38,
+        48
+      ],
+      "bonus": 6,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/092",
+      "drawDate": "2025-08-23",
+      "numbers": [
+        17,
+        22,
+        26,
+        36,
+        39,
+        45
+      ],
+      "bonus": 14,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/091",
+      "drawDate": "2025-08-21",
+      "numbers": [
+        6,
+        8,
+        10,
+        23,
+        32,
+        45
+      ],
+      "bonus": 3,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/090",
+      "drawDate": "2025-08-19",
+      "numbers": [
+        28,
+        32,
+        34,
+        37,
+        45,
+        49
+      ],
+      "bonus": 7,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/089",
+      "drawDate": "2025-08-16",
+      "numbers": [
+        4,
+        10,
+        15,
+        20,
+        32,
+        38
+      ],
+      "bonus": 26,
+      "jackpot": null
+    },
+    {
+      "drawNumber": "25/088",
+      "drawDate": "2025-08-14",
+      "numbers": [
+        1,
+        13,
+        25,
+        27,
+        31,
+        34
+      ],
+      "bonus": 33,
+      "jackpot": null
+    }
+  ],
+  "stats": {
+    "frequency": {
+      "1": 9,
+      "2": 18,
+      "4": 15,
+      "20": 11,
+      "21": 10,
+      "27": 12,
+      "11": 12,
+      "25": 13,
+      "28": 25,
+      "36": 13,
+      "41": 6,
+      "43": 7,
+      "23": 16,
+      "30": 9,
+      "34": 14,
+      "45": 14,
+      "47": 12,
+      "16": 12,
+      "19": 13,
+      "22": 15,
+      "9": 11,
+      "17": 16,
+      "26": 13,
+      "42": 10,
+      "6": 19,
+      "14": 11,
+      "7": 8,
+      "8": 11,
+      "10": 11,
+      "18": 16,
+      "3": 10,
+      "48": 10,
+      "46": 15,
+      "12": 11,
+      "37": 19,
+      "38": 11,
+      "44": 18,
+      "32": 15,
+      "39": 14,
+      "33": 12,
+      "40": 8,
+      "13": 11,
+      "24": 13,
+      "29": 3,
+      "35": 10,
+      "49": 10,
+      "5": 8,
+      "15": 12,
+      "31": 8
+    },
+    "lastSeen": {
+      "1": 99,
+      "2": 94,
+      "3": 94,
+      "4": 98,
+      "5": 93,
+      "6": 96,
+      "7": 89,
+      "8": 96,
+      "9": 74,
+      "10": 98,
+      "11": 88,
+      "12": 57,
+      "13": 99,
+      "14": 86,
+      "15": 98,
+      "16": 94,
+      "17": 95,
+      "18": 92,
+      "19": 90,
+      "20": 98,
+      "21": 88,
+      "22": 95,
+      "23": 96,
+      "24": 91,
+      "25": 99,
+      "26": 95,
+      "27": 99,
+      "28": 97,
+      "29": 91,
+      "30": 78,
+      "31": 99,
+      "32": 98,
+      "33": 92,
+      "34": 99,
+      "35": 85,
+      "36": 95,
+      "37": 97,
+      "38": 98,
+      "39": 95,
+      "40": 89,
+      "41": 81,
+      "42": 89,
+      "43": 90,
+      "44": 93,
+      "45": 97,
+      "46": 83,
+      "47": 87,
+      "48": 94,
+      "49": 97
+    },
+    "totalDraws": 100
+  },
+  "aiPicks": {
+    "setA": [
+      2,
+      6,
+      17,
+      23,
+      28,
+      32,
+      37
+    ],
+    "setB": [
+      4,
+      21,
+      22,
+      25,
+      26,
+      29,
+      46
+    ],
+    "generatedAt": "2026-05-20T09:25:14.745740",
+    "method": "frequency + gap + range balanced"
+  },
+  "archive": [
+    {
+      "pickDate": "2026-05-20T09:15:40.510383",
+      "drawDate": "2026-05-19",
+      "drawNumber": "26/053",
+      "setA": [
+        2,
+        6,
+        17,
+        23,
+        28,
+        32,
+        37
+      ],
+      "setB": [
+        4,
+        21,
+        22,
+        25,
+        26,
+        29,
+        46
+      ],
+      "matchA": null,
+      "matchB": null,
+      "actualNumbers": null
+    }
+  ]
+}
