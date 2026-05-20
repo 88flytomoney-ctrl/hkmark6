@@ -1,0 +1,56 @@
+name: Update Mark Six Data
+
+on:
+  schedule:
+    # Run at 09:00 HKT (01:00 UTC) on Sun(0), Wed(3), Thu(4)
+    - cron: '0 1 * * 0,3,4'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests -q
+
+      - name: Run data fetcher
+        run: python scripts/fetch_mark6_data.py
+
+      - name: Verify JSON output
+        run: |
+          python -c "
+          import json
+          with open('public/data/draws.json') as f:
+              data = json.load(f)
+          print(f\"Draws: {len(data['draws'])}\")
+          print(f\"Generated: {data['generatedAt']}\")
+          print(f\"AI Set A: {data['aiPicks']['setA']}\")
+          print(f\"AI Set B: {data['aiPicks']['setB']}\")
+          print(f\"Archive entries: {len(data['archive'])}\")
+          for d in data['draws'][:3]:
+              print(f\"  {d['drawNumber']} {d['drawDate']}: {d['numbers']} + {d['bonus']}\")
+          "
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/draws.json public/data/history/
+          git diff --staged --quiet && echo "No changes to commit" || \
+            git commit -m "🤖 Auto-update Mark Six data $(date +%Y-%m-%d\ %H:%M)" && \
+            git pull --ff-only || echo "Pull failed, force pushing..." && \
+            git push --force-with-lease

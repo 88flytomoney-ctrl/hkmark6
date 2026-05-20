@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@layer components {
+  .card {
+    @apply bg-slate-800 rounded-xl p-4 border border-slate-700;
+  }
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium;
+  }
+  .badge-up {
+    @apply bg-red-900/40 text-red-400;
+  }
+  .badge-down {
+    @apply bg-green-900/40 text-green-400;
+  }
+  .badge-neutral {
+    @apply bg-slate-800 text-slate-400;
+  }
+}
+
+/* Ball colors for Mark Six */
+.ball {
+  @apply inline-flex items-center justify-center rounded-full font-bold text-white;
+  width: 36px;
+  height: 36px;
+  font-size: 14px;
+}
+.ball-small {
+  width: 28px;
+  height: 28px;
+  font-size: 11px;
+}
+.ball-1-9  { background: #3b82f6; }
+.ball-10-19 { background: #8b5cf6; }
+.ball-20-29 { background: #ec4899; }
+.ball-30-39 { background: #f97316; }
+.ball-40-49 { background: #10b981; }
+.ball-bonus { background: #fbbf24; color: #000; }
