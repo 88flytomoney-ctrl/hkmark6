@@ -11,7 +11,7 @@ export default function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/hkmark6/data/draws.json')
+    fetch('/data/draws.json')
       .then(r => r.json())
       .then(d => { setData(d); setLoading(false); })
       .catch(e => { setError(e.message); setLoading(false); });
