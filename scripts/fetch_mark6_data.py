@@ -7,12 +7,13 @@ import re
 import json
 import os
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 
 BASE_URL = "https://en.lottolyzer.com/history/hong-kong/mark-six/page/{page}/per-page/50/summary-view"
 OUTPUT_FILE = Path("public/data/draws.json")
 HISTORY_DIR = Path("public/data/history")
+HK_TZ = timezone(timedelta(hours=8))  # Hong Kong Standard Time (UTC+8)
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 
 
@@ -105,7 +106,7 @@ def generate_ai_picks(draws, stats):
     extremes = [n for n in sorted_nums if n <= 10 or n >= 36]
 
     import random
-    random.seed(datetime.now().day)  # deterministic daily picks
+    random.seed(datetime.now(HK_TZ).day)  # deterministic daily picks
     set_b = (
         random.sample(top15, 3) +
         random.sample(mid, 2) +
@@ -116,13 +117,13 @@ def generate_ai_picks(draws, stats):
     return {
         "setA": sorted(set_a),
         "setB": set_b,
-        "generatedAt": datetime.now().isoformat(),
+        "generatedAt": datetime.now(HK_TZ).isoformat(timespec='minutes'),
         "method": "frequency + gap + range balanced",
     }
 
 
 def main():
-    print(f"🚀 Mark Six fetcher started at {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"🚀 Mark Six fetcher started at {datetime.now(HK_TZ).strftime('%Y-%m-%d %H:%M')} HKT")
 
     # 1. Fetch draws
     raw_rows = fetch_draws()
@@ -164,7 +165,7 @@ def main():
 
     # Add today's pick (without match data yet)
     new_pick = {
-        "pickDate": datetime.now().isoformat(),
+        "pickDate": datetime.now(HK_TZ).isoformat(timespec='minutes'),
         "drawDate": latest_draw["drawDate"],
         "drawNumber": latest_draw["drawNumber"],
         "setA": ai_picks["setA"],
@@ -180,7 +181,7 @@ def main():
     # 5. Write output
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     output = {
-        "generatedAt": datetime.now().isoformat(),
+        "generatedAt": datetime.now(HK_TZ).isoformat(timespec='minutes'),
         "draws": draws,
         "stats": stats,
         "aiPicks": ai_picks,
@@ -193,7 +194,7 @@ def main():
 
     # 6. Save history
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
-    date_str = datetime.now().strftime("%Y-%m-%d")
+    date_str = datetime.now(HK_TZ).strftime("%Y-%m-%d")
     history_file = HISTORY_DIR / f"{date_str}.json"
     with open(history_file, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)

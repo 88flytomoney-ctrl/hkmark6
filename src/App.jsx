@@ -41,8 +41,12 @@ export default function App() {
             <p className="text-xs text-slate-400">AI 智能分析 | 數據來源: lottolyzer.com</p>
           </div>
           <div className="text-right text-xs text-slate-400">
-            <div>最後更新</div>
-            <div>{data?.generatedAt ? new Date(data.generatedAt).toLocaleString('zh-HK') : '—'}</div>
+            <div>最後更新 (HKT)</div>
+            <div>{data?.generatedAt ? new Intl.DateTimeFormat('zh-HK', {
+              timeZone: 'Asia/Hong_Kong',
+              year: 'numeric', month: '2-digit', day: '2-digit',
+              hour: '2-digit', minute: '2-digit',
+            }).format(new Date(data.generatedAt)) : '—'}</div>
             <div className="text-slate-500 mt-1">{draws.length} 筆記錄</div>
           </div>
         </div>
