@@ -1,5 +1,31 @@
 [
   {
+    "pickDate": "2026-06-19T09:16+08:00",
+    "drawDate": "2026-06-18",
+    "drawNumber": "26/065",
+    "setA": [
+      2,
+      6,
+      17,
+      18,
+      28,
+      37,
+      47
+    ],
+    "setB": [
+      6,
+      27,
+      28,
+      29,
+      35,
+      40,
+      46
+    ],
+    "matchA": null,
+    "matchB": null,
+    "actualNumbers": null
+  },
+  {
     "pickDate": "2026-06-15T09:16+08:00",
     "drawDate": "2026-06-14",
     "drawNumber": "26/064",
