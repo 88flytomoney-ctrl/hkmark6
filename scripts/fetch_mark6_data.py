@@ -118,7 +118,7 @@ def compute_stats(draws):
 
 
 def generate_ai_picks(draws, stats):
-    """Generate 2 sets of 7 numbers based on statistical analysis."""
+    """Generate 2 sets of 6 numbers based on statistical analysis."""
     frequency = stats["frequency"]
     last_seen = stats["lastSeen"]
 
@@ -134,7 +134,7 @@ def generate_ai_picks(draws, stats):
 
     sorted_nums = sorted(scores.keys(), key=lambda n: scores[n], reverse=True)
 
-    set_a = sorted_nums[:7]
+    set_a = sorted_nums[:6]
 
     top15 = sorted_nums[:15]
     mid = [n for n in sorted_nums if 16 <= n <= 30]
@@ -144,7 +144,7 @@ def generate_ai_picks(draws, stats):
     set_b = (
         random.sample(top15, 3) +
         random.sample(mid, 2) +
-        random.sample(extremes, 2)
+        random.sample(extremes, 1)
     )
     set_b = sorted(set_b)
 

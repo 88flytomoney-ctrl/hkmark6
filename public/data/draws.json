@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T12:39+08:00",
+  "generatedAt": "2026-08-12T12:38+08:00",
   "draws": [
     {
       "drawNumber": "26/087",
@@ -1510,7 +1510,6 @@
   "aiPicks": {
     "setA": [
       2,
-      6,
       12,
       26,
       28,
@@ -1523,10 +1522,9 @@
       27,
       34,
       35,
-      36,
-      47
+      36
     ],
-    "generatedAt": "2026-08-12T12:39+08:00",
+    "generatedAt": "2026-08-12T12:38+08:00",
     "method": "frequency + gap + range balanced"
   },
   "archive": [
