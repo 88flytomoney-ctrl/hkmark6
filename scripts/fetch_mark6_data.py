@@ -10,7 +10,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 
-BASE_URL = "https://en.lottolyzer.com/history/hong-kong/marksix/page/{page}/per-page/50/summary-view"
+BASE_URL = "https://en.lottolyzer.com/history/hong-kong/mark-six/page/{page}/per-page/50/summary-view"
 OUTPUT_FILE = Path("public/data/draws.json")
 HISTORY_DIR = Path("public/data/history")
 HK_TZ = timezone(timedelta(hours=8))  # Hong Kong Standard Time (UTC+8)
@@ -27,7 +27,7 @@ def fetch_draws():
         resp.raise_for_status()
         html = resp.text
         rows = re.findall(
-            r'<td>(\d+)</td>\s*<td[^>]*>(\d{4}-\d{2}-\d{2})</td>\s*<td[^>]*>([\d,\s]+)</td>\s*<td[^>]*>(\d+)',
+            r'<td>(\d+/\d+)</td>\s*<td[^>]*>([\d-]+)</td>\s*<td[^>]*>([\d,\s]+)</td>\s*<td[^>]*>([\d]+)',
             html
         )
         print(f"  → Found {len(rows)} draws on page {page}")
