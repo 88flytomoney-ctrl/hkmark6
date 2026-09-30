@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T09:15+08:00",
+  "generatedAt": "2026-09-30T14:08+08:00",
   "draws": [
     {
       "drawNumber": "26/104",
@@ -1524,7 +1524,7 @@
       37,
       41
     ],
-    "generatedAt": "2026-09-30T09:15+08:00",
+    "generatedAt": "2026-09-30T14:08+08:00",
     "method": "frequency + gap + range balanced"
   },
   "archive": [
