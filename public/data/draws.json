@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T15:52+08:00",
+  "generatedAt": "2026-11-22T15:37+08:00",
   "draws": [
     {
       "drawNumber": "26/123",
@@ -1517,14 +1517,14 @@
       34
     ],
     "setB": [
-      9,
-      16,
-      23,
-      24,
-      26,
+      6,
+      18,
+      21,
+      28,
+      28,
       32
     ],
-    "generatedAt": "2026-11-20T15:52+08:00",
+    "generatedAt": "2026-11-22T15:37+08:00",
     "method": "frequency + gap + range balanced"
   },
   "archive": [
