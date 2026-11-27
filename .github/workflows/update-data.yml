@@ -1,24 +1,28 @@
 name: Update Mark Six Data
 
 on:
-  schedule:
-    # Run at 09:00 HKT (01:00 UTC) on Wed(3), Fri(5), Sun(0)
-    - cron: '0 1 * * 0,3,5'
   workflow_dispatch:
   push:
     branches: [main]
 
+concurrency:
+  group: hkmark6-pipeline-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  update-data:
+  pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # ── Data Layer ──────────────────────────────────────────────────────────
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -50,7 +54,36 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add public/data/draws.json public/data/history/
-          git diff --staged --quiet && echo "No changes to commit" || \
-            git commit -m "🤖 Auto-update Mark Six data $(date +%Y-%m-%d\ %H:%M)" && \
-            git pull --ff-only || echo "Pull failed, force pushing..." && \
-            git push --force-with-lease
+          if ! git diff --staged --quiet; then
+            git fetch origin main --depth=1
+            git reset --soft origin/main
+            git add public/data/draws.json public/data/history/
+            git commit -m "🤖 Auto-update Mark Six data $(date +%Y-%m-%d\ %H:%M)"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit"
+          fi
+
+      # ── Frontend Build & Deploy ─────────────────────────────────────────────
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install & Build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Wait for artifact indexing
+        run: sleep 5
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
